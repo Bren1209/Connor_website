@@ -1,0 +1,133 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-image: url("/media/Background1 - Bernard Hermant.jpg");
+}
+
+
+#top-block {
+    padding: 0;
+    margin: 0;
+    height: 30vw;
+    margin: 0;
+    padding: 0;
+}
+
+.strip {
+    height: 25.02vw;
+    margin: 0;
+    padding: 0;
+    float: left;
+    box-shadow: 10px 10px 50px 15px;
+}
+
+#name-text {
+    padding: 0;
+    margin: 0;
+    size: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    top: 16vw;
+    left: 7vw;
+    /* vertical-align: middle; */
+    position: absolute;
+}
+
+#name-text2{
+    margin: 0;
+    padding: 0;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 5.5vw;
+    color: rgb(38, 107, 187);
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    position: absolute;
+    left: 15%;
+    top: 18%;
+    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.664);
+}
+
+#description-text {
+    font-family: 'Permanent Marker', cursive;
+    font-style: bold;
+    font-size: 1.8vw;
+    position: absolute;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    left: 15%;
+    top: 53%;
+    margin: 0;
+    padding: 0;
+    color: rgb(18, 87, 165);
+    /* background-color: #696969; */
+    text-shadow: 3px 3px 1.7px rgba(0, 0, 0, 0.836);
+}
+
+#button-container{
+    position: relative;
+    text-align: center;
+}
+
+.button1-prettify{
+    color: rgb(38, 107, 187);;
+    font-size: 6vw;
+    font-family: 'Permanent Marker', cursive;
+    padding: 1vw;
+    margin: 0;
+    border: none;
+    background: none;
+    position: relative;
+    float: left;
+    top: 5vw;
+    left: 20vw;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
+    transition-duration: 200ms;
+    outline: none;
+}
+
+.button2-prettify{
+    color: rgb(38, 107, 187);;
+    font-size: 6vw;
+    font-family: 'Permanent Marker', cursive;
+    padding: 1vw;
+    margin: 0;
+    border: none;
+    background: none;
+    position: relative;
+    float: right;
+    top: 5vw;
+    right: 20vw;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
+    transition-duration: 200ms;
+    outline: none;
+}
+
+.button1-prettify:hover{
+    color: rgb(0, 0, 0);
+    transition-duration: 300ms;
+    /* font-size: 6.3vw; */
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.button2-prettify:hover{
+    color: rgb(0, 0, 0);
+    transition-duration: 300ms;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.home-foot{
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 100%; */
+    color: rgb(0, 0, 0);
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    bottom: 0%;
+    left: 1%;
+}
+
