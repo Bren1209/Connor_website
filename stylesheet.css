@@ -4,7 +4,6 @@ html, body{
     background-image: url("media/Background1 - Bernard Hermant.jpg");
 }
 
-
 #top-block {
     padding: 0;
     margin: 0;
@@ -89,6 +88,14 @@ html, body{
     outline: none;
 }
 
+.button1-prettify a{
+    text-decoration: none;
+    color: inherit;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
+}
+
+
 .button2-prettify{
     color: rgb(38, 107, 187);
     font-size: 6vw;
@@ -107,7 +114,14 @@ html, body{
     outline: none;
 }
 
-.button1-prettify:hover{
+.button2-prettify a{
+    text-decoration: none;
+    color: inherit;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
+}
+
+.button1-prettify a:hover{
     color: rgb(0, 0, 0);
     transition-duration: 300ms;
     /* font-size: 6.3vw; */
@@ -115,7 +129,7 @@ html, body{
     cursor: pointer;
 }
 
-.button2-prettify:hover{
+.button2-prettify a:hover{
     color: rgb(0, 0, 0);
     transition-duration: 300ms;
     -webkit-text-stroke-color: rgb(255, 255, 255);
@@ -126,10 +140,10 @@ html, body{
     font-family: Arial, Helvetica, sans-serif;
     /* font-size: 100%; */
     color: rgb(0, 0, 0);
-    position: absolute;
+    position: fixed;
     margin: 0;
     padding: 0;
-    bottom: 0%;
+    bottom: 0;
     left: 1%;
 }
 
@@ -140,10 +154,9 @@ html, body{
 .top-header h1{
     font-family: 'Permanent Marker', cursive;
     padding: 0;
-    margin: 1vw;
-    color: rgb(0, 0, 0);
+    margin: 2vw;
     font-size: 6vw;
-    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
     color: rgb(38, 107, 187);
 }
@@ -152,11 +165,27 @@ html, body{
     text-align: center;
     background-color: rgb(0, 0, 0, 0.6);
     height: 50vw;
-    width: 50vw;
+    width: 60vw;
     margin: 3vw auto;
+    border-radius: 10%;
 }
 
 #pointer-image img{
-    width: 20%;
-    height: 1px;
+    float: left;
+    margin: 2.5vw;
+    width: 17vw;
+    height: 18vw;
+    object-fit: cover;
+    border-radius: 50%;
+    border: black 3px solid;
+    box-shadow: 0 0 14px 8px;
+}
+
+#about-container p{
+    padding: 5%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2.5vw;
+    color: white;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
 }
