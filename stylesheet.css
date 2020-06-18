@@ -57,13 +57,14 @@ html, body{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     left: 15%;
-    top: 53%;
+    top: 55%;
     margin: 0;
-    padding: 0;
+    padding 0;
     color: rgb(18, 87, 165);
     /* background-color: #696969; */
     text-shadow: 3px 3px 1.7px rgba(0, 0, 0, 0.836);
 }
+
 
 #button-container{
     position: relative;
@@ -84,7 +85,6 @@ html, body{
     left: 20vw;
     -webkit-text-stroke-width: 4px;
     -webkit-text-stroke-color: black;
-    transition-duration: 200ms;
     outline: none;
 }
 
@@ -93,6 +93,7 @@ html, body{
     color: inherit;
     -webkit-text-stroke-width: 4px;
     -webkit-text-stroke-color: black;
+    transition-duration: 300ms;
 }
 
 
@@ -110,7 +111,6 @@ html, body{
     right: 20vw;
     -webkit-text-stroke-width: 4px;
     -webkit-text-stroke-color: black;
-    transition-duration: 200ms;
     outline: none;
 }
 
@@ -119,6 +119,7 @@ html, body{
     color: inherit;
     -webkit-text-stroke-width: 4px;
     -webkit-text-stroke-color: black;
+    transition-duration: 300ms;
 }
 
 .button1-prettify a:hover{
