@@ -2,6 +2,7 @@ html, body{
     margin: 0;
     padding: 0;
     background-image: url("media/Background1 - Bernard Hermant.jpg");
+    background-attachment: fixed;
 }
 
 #top-block {
@@ -59,7 +60,7 @@ html, body{
     left: 15%;
     top: 55%;
     margin: 0;
-    padding 0;
+    padding: 0;
     color: rgb(18, 87, 165);
     /* background-color: #696969; */
     text-shadow: 3px 3px 1.7px rgba(0, 0, 0, 0.836);
@@ -190,3 +191,15 @@ html, body{
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
 }
+
+#contact-container {
+    margin: 2vw;
+    padding: 2vw;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.486);
+    height: 25vw;
+    width: 30vw;
+    margin: 3vw auto;
+    color: white;
+}
+

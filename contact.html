@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+    </style>
+    <link rel='stylesheet' type='text/css' href='stylesheet.css'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connor Lloyd - Contact</title>
+</head>
+<body>
+    <div class="top-header">
+		<h1>Contact Me!</h1>
+    </div>
+    <div id="contact-container">
+        <form action="index.html">
+            <label>Your Name:
+                <input name='name' type="text" placeholder="Eg. Jane Doe" pattern=".{5,10}" required title="betwixed 5 and 10">
+            </label>
+            <label>Contact nr:
+                <input name="contactNum" type="text" placeholder="Spaces not necessary" required>
+            </label>
+            <label>Acting
+                <input name="ActOrMod" type="radio" value="ACTING" required>
+            </label>
+            <label>Modeling
+                <input name="ActOrMod" type="radio" value="MODELING" required>
+            </label>
+            <label>Please Select:
+                <select name="dropdown">
+                    <option>Acting</option>
+                    <option>Modeling</option>
+                    <option>Other</option>
+                </select>
+            </label>
+            <label>Your Comment:
+                <textarea rows="8" cols="30"></textarea>
+            </label>
+            <button>Contact</button>
+        </form>
+    </div>
+</body>
+</html>
