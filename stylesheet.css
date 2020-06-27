@@ -1,157 +1,99 @@
 html, body{
     margin: 0;
     padding: 0;
-    background-image: url("media/Background1 - Bernard Hermant.jpg");
     background-attachment: fixed;
+    font-family: 'Permanent Marker', cursive;
+    background-image: url("media/Background1 - Bernard Hermant.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
 }
 
-#top-block {
-    padding: 0;
-    margin: 0;
-    height: 30vw;
-    margin: 0;
-    padding: 0;
-}
 
-.strip {
-    height: 25.02vw;
-    margin: 0;
-    padding: 0;
-    float: left;
-    box-shadow: 10px 10px 50px 15px;
-}
-
-#name-text {
-    padding: 0;
-    margin: 0;
-    size: 50%;
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
-    top: 16vw;
-    left: 7vw;
-    /* vertical-align: middle; */
-    position: absolute;
+.img-props {
+    box-shadow: -4px 15px 20px 3px;
 }
 
 #name-text2{
     margin: 0;
     padding: 0;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 5.5vw;
     color: rgb(38, 107, 187);
-    /*text-align: center;*/
-    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
     position: absolute;
-    left: 15%;
-    top: 18%;
-    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.664);
+    text-shadow: 10px 5px 3px rgba(0, 0, 0, 0.801);
+    bottom: 40%;
+    text-align: center;
+    letter-spacing: 0.2rem;
 }
 
+#name-text2 h1{
+    font-size: 5rem;
+    -webkit-text-stroke-width: 3px;
+}
+
+
 #description-text {
-    font-family: 'Permanent Marker', cursive;
-    font-style: bold;
-    font-size: 1.8vw;
     position: absolute;
-    text-align: center;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
-    left: 15%;
-    top: 53%;
     margin: 0;
     padding: 0;
     color: rgb(18, 87, 165);
-    /* background-color: #696969; */
+    text-shadow: 3px 3px 1.7px rgba(0, 0, 0, 0.836);
+    bottom: 35%;
+    text-align: center;
+}
+
+#description-text h2{
+    font-size: 2.3rem;
+}
+
+#button-pos {
+    position: fixed;
+    bottom: 18%;
+    text-align: center;
+}
+
+.button-prettify{
+    color: rgb(38, 107, 187);
+    font-size: 2rem;
+    border: none;
+    background: none;
+    outline: none;
+    letter-spacing: 0.1rem;
+}
+
+
+.button-prettify a{
+    text-decoration: none;
+    color: inherit;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    transition-duration: 300ms;
     text-shadow: 3px 3px 1.7px rgba(0, 0, 0, 0.836);
 }
 
 
-/* #button-container{
-    position: relative;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    max-height: 0;
-} */
-
-.button1-prettify{
-    color: rgb(38, 107, 187);;
-    font-size: 6vw;
-    font-family: 'Permanent Marker', cursive;
-    /* padding: 1vw; */
-    margin: 0;
-    border: none;
-    background: none;
-    position: relative;
-    float: left;
-    top: 4vw;
-    padding-bottom: 4vw;
-    left: 20vw;
-    /* -webkit-text-stroke-width: 4px; */
-    /* -webkit-text-stroke-color: black; */
-    outline: none;
-}
-
-.button1-prettify a{
-    text-decoration: none;
-    color: inherit;
-    -webkit-text-stroke-width: 4px;
-    -webkit-text-stroke-color: black;
-    transition-duration: 300ms;
-}
-
-
-.button2-prettify{
-    color: rgb(38, 107, 187);
-    font-size: 6vw;
-    font-family: 'Permanent Marker', cursive;
-    /* padding: 1vw; */
-    margin: 0;
-    border: none;
-    background: none;
-    position: relative;
-    float: right;
-    top: 4vw;
-    right: 20vw;
-    padding-bottom: 4vw;
-    /* -webkit-text-stroke-width: 4px;
-    -webkit-text-stroke-color: black; */
-    outline: none;
-}
-
-.button2-prettify a{
-    text-decoration: none;
-    color: inherit;
-    -webkit-text-stroke-width: 4px;
-    -webkit-text-stroke-color: black;
-    transition-duration: 300ms;
-}
-
-.button1-prettify a:hover{
-    color: rgb(0, 0, 0);
-    transition-duration: 300ms;
-    /* font-size: 6.3vw; */
-    -webkit-text-stroke-color: rgb(255, 255, 255);
-    cursor: pointer;
-}
-
-.button2-prettify a:hover{
+.button-prettify a:hover{
     color: rgb(0, 0, 0);
     transition-duration: 300ms;
     -webkit-text-stroke-color: rgb(255, 255, 255);
     cursor: pointer;
 }
+
 
 #home-foot{
     font-family: Arial, Helvetica, sans-serif;
-    /* font-size: 100%; */
-    color: rgb(0, 0, 0);
-    position: fixed;
+    font-size: 0.8rem;
+    color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
-    bottom: 0;
-    left: 1%;
+    bottom: 0%;
+    left: 2%;
+    position: fixed;
+    background-color: rgb(0, 0, 0, 0.6);
+    height: 1.3rem;
 }
 
 .top-header{
@@ -160,28 +102,30 @@ html, body{
 
 .top-header h1{
     font-family: 'Permanent Marker', cursive;
-    padding: 0;
-    margin: 2vw;
-    font-size: 6vw;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
     color: rgb(38, 107, 187);
+    text-shadow: 3px 3px 1.7px rgba(0, 0, 0, 0.836);
+    padding: 0 0 2rem 0;
+    margin: 2vw;
+    font-size: 3rem;
+    margin-top: 3rem;
+    -webkit-text-stroke-width: 0.3vw;
+    -webkit-text-stroke-color: black;
 }
 
 #about-container{
     text-align: center;
     background-color: rgb(0, 0, 0, 0.6);
-    height: 50vw;
-    width: 60vw;
+    height: 100%;
+    width: 100%;
     margin: 0 auto;
     border-radius: 10%;
 }
 
 #pointer-image img{
-    float: left;
+    float: none;
     margin: 2.5vw;
-    width: 17vw;
-    height: 18vw;
+    width: 9rem;
+    height: 9rem;
     object-fit: cover;
     border-radius: 50%;
     border: black 3px solid;
@@ -192,9 +136,9 @@ html, body{
     padding: 2vw;
     margin: 0;
     font-family: 'Permanent Marker', cursive;
-    font-size: 2.5vw;
+    font-size: 0.8rem;
     color: white;
-    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-width: 0.1vw;
     -webkit-text-stroke-color: black;
 }
 
@@ -209,3 +153,154 @@ html, body{
     color: white;
 }
 
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+    #name-text2 h1 {
+        font-size: 6.5rem;
+        -webkit-text-stroke-width: 3px;
+    }
+
+    html, body {
+        background-image: url("media/Background1 - Bernard Hermant.jpg");
+    }
+
+    .button-prettify {
+        font-size: 2.5rem;
+    }
+
+    .button-prettify a{
+        -webkit-text-stroke-width: 2px;
+    }
+
+    #button-pos {
+        position: absolute;
+        bottom: 15%;
+    }
+
+    .top-header h1 {
+        font-size: 3rem;
+    }
+
+    #about-container p {
+        font-size: 1rem;
+    }
+
+    #pointer-image img{
+        float: none;
+        width: 10rem;
+        height: 10rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+    #name-text2 h1 {
+        font-size: 7rem;
+        -webkit-text-stroke-width: 3px;
+    }
+
+    html, body {
+        background-image: url("media/Background1 - Bernard Hermant.jpg");
+    }
+
+    .button-prettify {
+        font-size: 3rem;
+    }
+
+    .button-prettify a{
+        -webkit-text-stroke-width: 2.5px;
+    }
+
+    #button-pos {
+        position: absolute;
+        bottom: 15%;
+    }
+
+    .top-header h1 {
+        font-size: 4rem;
+    }
+
+    #about-container p {
+        font-size: 1.5rem;
+    }
+
+    #pointer-image img{
+        float: left;
+        width: 11rem;
+        height: 11rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    #name-text2 h1 {
+        font-size: 9rem;
+        -webkit-text-stroke-width: 5px;
+    }
+
+    html, body {
+        background-image: url("media/Background1 - Bernard Hermant.jpg");
+    }
+
+    .button-prettify {
+        font-size: 3.8rem;
+    }
+
+    .button-prettify a{
+        -webkit-text-stroke-width: 4px;
+    }
+
+    #button-pos {
+        position: absolute;
+        bottom: 15%;
+    }
+
+    .top-header h1 {
+        font-size: 5rem;
+    }
+
+    #about-container p {
+        font-size: 1.8rem;
+    }
+
+    #pointer-image img{
+        float: left;
+        width: 14rem;
+        height: 14rem;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    #name-text2 h1 {
+        font-size: 9rem;
+        -webkit-text-stroke-width: 6px;
+    }
+
+    html, body {
+        background-image: url("media/Background1 - Bernard Hermant.jpg");
+    }
+
+    .button-prettify {
+        font-size: 4.5rem;
+    }
+
+    #button-pos {
+        position: absolute;
+        bottom: 15%;
+    }
+
+    .top-header h1 {
+        font-size: 6rem;
+    }
+
+    #about-container p {
+        font-size: 2.1rem;
+    }
+
+    #pointer-image img{
+        float: left;
+        width: 17rem;
+        height: 17rem;
+    }
+}

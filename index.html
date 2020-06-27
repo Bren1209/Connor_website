@@ -1,41 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
         </style>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    <link rel='stylesheet' type='text/css' href='stylesheet.css'>
         <link rel='stylesheet' type='text/css' href='stylesheet.css'>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Connor Lloyd - Home</title>
     </head>
     <body>
-        <div id='top-block'>
-            <img class='strip' src="media/Con1.jpg" alt="Image not found">
-            <img class='strip' src='media/Con1_2.jpg' alt="Image not found">
-            <img class='strip' src='media/Con2.jpg' alt="Image not found">
-            <img class='strip' src='media/Con2_2.jpg' alt="Image not found">
-            <img class='strip' src='media/Con3.jpg' alt="Image not found">
-            <img class='strip' src='media/Con3_2.jpg' alt="Image not found">
-        </div>
-        <!-- <div id="name-text"> -->
-            <!-- <img src="/media/CL Text.png" alt="Image not found"> -->
-        <!-- </div> -->
-        <div id="name-text2">
-            <h1>Connor Lloyd</h1>
-        </div>
-        <div id="description-text">
-            <!-- <img src="/media/CL Description.png" alt="Description not found"> -->
-            <h1><i>Model, actor and generally a good boy.</i></h1>
-        </div>
-        <div id="button-container">
-            <button class="button1-prettify"><a href="about.html">About</a></button>
-            <button class="button2-prettify"><a href="contact.html">Contact</a></button>
-        </div>
-        <div id="home-foot">
-            <p ><strong>Website by: 
-                <a href="https://github.com/Bren1209" target="_blank">Brendan Stander</a>
-            ©</strong></p>
+        <div class="container-fluid px-0" style="height: 100%;">
+            <div class="row justify-content-center m-0">
+                <div class="col-xl col-lg col-md col-sm col-12 p-0">
+                    <img class='img-fluid img-props' src="media/Con1.jpg" alt="Image not found">
+                </div>
+                <div class="col-xl col-lg col-md col-sm col-12 d-none d-sm-inline p-0">
+                    <img class='img-fluid img-props' src='media/Con1_2.jpg' alt="Image not found">
+                </div>
+                <div class="col-xl col-lg col-md col-sm col-12 p-0">
+                    <img class='img-fluid img-props' src='media/Con2.jpg' alt="Image not found">
+                </div>
+                <div class="col-xl col-lg col-md col-sm col-12 d-none d-sm-inline p-0">
+                    <img class='img-fluid img-props' src='media/Con2_2.jpg' alt="Image not found">
+                </div>
+                <div class="col-xl col-lg col-md col-sm col-12 p-0">
+                    <img class='img-fluid img-props' src='media/Con3.jpg' alt="Image not found">
+                </div>
+                <div class="col-xl col-lg col-md col-sm col-12 d-none d-sm-inline p-0">
+                    <img class='img-fluid img-props' src='media/Con3_2.jpg' alt="Image not found">
+                </div>
+            </div>
+                
+            <div class="container-fluid">
+                <div class="row">
+                    <div id="name-text2" class="col-lg-12 position-fixed">
+                        <h1 class="mb-0">Connor Lloyd</h1>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div id="description-text" class="col-lg-12 d-none d-md-inline">
+                    <h2><i>Model, actor and generally a good boy.</i></h2>
+                </div>
+            </div>
+            
+            <div id="button-pos" class="container-fluid">
+                <div class="row mx-0">
+                    <div class="col-xl col-lg col-md p-0 text-center">
+                        <button class="button-prettify"><a href="about.html">About</a></button>
+                    </div>
+                    <div class="col-xl col-lg col-md p-0 text-center">
+                        <button class="button-prettify"><a href="#">Portfolio</a></button>
+                    </div>
+                    <div class="col-xl col-lg col-md p-0 text-center">
+                        <button class="button-prettify"><a href="contact.html">Contact</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="home-foot" class="d-flex my-auto">
+                <p ><strong>Website by: 
+                    <a href="https://github.com/Bren1209" target="_blank">Brendan Stander</a>
+                </strong></p>
+            </div>
         </div>
         <script src='index.js'></script>
     </body>
