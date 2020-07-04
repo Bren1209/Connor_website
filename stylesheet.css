@@ -10,6 +10,9 @@ html, body{
     position: relative;
 }
 
+form input,textarea {
+    font-family: none;
+}
 
 .img-props {
     box-shadow: -4px 15px 20px 3px;
@@ -147,11 +150,43 @@ html, body{
     padding: 2vw;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.486);
-    height: 30vw;
-    width: 30vw;
+    height: 100%;
+    width: 100%;
     margin: 3vw auto;
     color: white;
 }
+
+
+.port-vid-container {
+    background-color: rgb(0, 0, 0, 0.6);
+    margin: 0.5rem;
+    color: white;
+    text-align: center;
+    height: 25rem;
+    line-height: 30rem;
+    font-size: 1rem;
+    padding: 20px;
+}
+
+.port-img {
+    padding: 1rem;
+    /* height: 30rem; */
+}
+
+.port-vid {
+    width: 400px;
+    height: 200px;
+}
+
+.input-height {
+    height: 9rem;
+}
+
+.btn-submit {
+    padding: 0;
+}
+
+/* =========================================== */
 
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {  
@@ -190,7 +225,18 @@ html, body{
         width: 10rem;
         height: 10rem;
     }
+
+    .port-vid-container {
+        font-size: 2rem;
+        height: 30rem;
+    }
+
+    #contact-container {
+        width: 100%;
+        height: 30rem;
+    }
 }
+
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {  
@@ -229,7 +275,18 @@ html, body{
         width: 11rem;
         height: 11rem;
     }
+
+    .port-vid-container {
+        font-size: 3rem;
+        height: 30rem;
+    }
+
+    #contact-container {
+        width: 90%;
+        height: 30rem;
+    }
 }
+
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
@@ -268,7 +325,18 @@ html, body{
         width: 14rem;
         height: 14rem;
     }
+
+    .port-vid-container {
+        font-size: 4rem;
+        height: 30rem;
+    }
+
+    #contact-container {
+        width: 80%;
+        height: 30rem;
+    }
 }
+
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
@@ -291,7 +359,7 @@ html, body{
     }
 
     .top-header h1 {
-        font-size: 6rem;
+        font-size: 5rem;
     }
 
     #about-container p {
@@ -303,4 +371,25 @@ html, body{
         width: 17rem;
         height: 17rem;
     }
+
+    .port-img-container {
+        background-color: rgb(0, 0, 0, 0.6);
+        margin: 0.5rem;
+    }
+
+    .port-img {
+        padding: 1rem;
+        height: 30rem;
+    }
+
+    .port-vid-container {
+        font-size: 5rem;
+        height: 30rem;
+    }
+
+    #contact-container {
+        width: 80%;
+        height: 30rem;
+    }
+    
 }
